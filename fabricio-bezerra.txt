@@ -159,7 +159,21 @@ Review Questions
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        Inline elements can contain only the data and other inline elements. They do not change layouts.
+        Block elements change layouts. They always start a new line and take the full width available.
+
     2. What happens when an element is positioned absolutely? 
+        The element is positioned relative to its first positioned (not static) ancestor element
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Block:  - <p></p>
+                - <h1></h1>
+                - <div></div>
+        Inline: - <span></span>
+                - <a></a>
+                - <img/>
+
     5. In your own words, explain the box model. What is the fix for the box model? 
+        The box model is the layout model that all elements in a html page are based on. I guess, basically everything in CSS has box around itself. Besides the size of the element (width and height), all of them also have padding, border and margin.
