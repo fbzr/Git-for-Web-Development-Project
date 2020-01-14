@@ -1,0 +1,44 @@
+body {
+    border: 20px solid #00CED1;
+    font-size: 20px;
+    color: #2F4F4F;
+}
+
+div.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #778899;
+    text-align: center;
+}
+
+div.info {
+    background-color: #7FFFD4;
+    padding: 5%;
+}
+
+.first-section {
+    color: #00CED1;
+    background-color: #2F4F4F;
+    padding: 10%;
+}
+
+.second-section {
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.second-section h2 {
+    color: #778899;
+    text-transform: uppercase;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10% 0;
+}
+
