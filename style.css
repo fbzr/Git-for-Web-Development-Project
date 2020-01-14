@@ -14,9 +14,17 @@ h1 {
     text-align: center;
 }
 
+h1:hover {
+    color: #BC8F8F;
+}
+
 div.info {
     background-color: #7FFFD4;
     padding: 5%;
+}
+
+div.info:hover {
+    background-color: #DEB887;
 }
 
 .first-section {
@@ -25,9 +33,18 @@ div.info {
     padding: 10%;
 }
 
+.first-section:hover {
+    color: #FFA07A;
+    background-color: #696969;
+}
+
 .second-section {
     line-height: 1.5;
     letter-spacing: 2px;
+}
+
+.second-section:hover {
+    color: #FF8C00;
 }
 
 .second-section h2 {
@@ -35,10 +52,19 @@ div.info {
     text-transform: uppercase;
 }
 
+.second-section h2:hover {
+    color: #FF8C00;
+    text-transform: capitalize;
+}
+
 .gallery {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 10% 0;
+}
+
+.gallery img:hover {
+    border: 10px dotted #DC143C;
 }
 
